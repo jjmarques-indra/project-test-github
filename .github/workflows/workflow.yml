@@ -11,7 +11,7 @@ jobs:
     #  - uses: actions/checkout@v2
     #  - name: Building the image from the Dockerfile
     #    uses: ./.github/action-docker
-    runruns-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Set up JDK 1.8
